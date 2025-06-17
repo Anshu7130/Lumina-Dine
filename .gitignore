@@ -1,0 +1,40 @@
+# 💻 OS junk files
+.DS_Store
+Thumbs.db
+
+# ⚙️ IDE/editor files
+.vscode/
+.idea/
+
+# 🪵 Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# 🔐 Environment files
+.env
+
+# 🔁 Node modules (in client and rest)
+client/node_modules/
+rest/node_modules/
+
+# 🚧 Build/Dist folders
+client/build/
+client/dist/
+rest/dist/
+rest/build/
+
+# 🧪 Coverage/test results
+coverage/
+*.lcov
+
+# ⛵ Deployment or runtime stuff
+*.env.*
+.env.local
+*.bak
+
+# ⚠️ Ignore local database/cache/temp (optional)
+*.sqlite
+*.db
+*.cache
+*.tmp
